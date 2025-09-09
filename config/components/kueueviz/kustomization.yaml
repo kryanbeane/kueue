@@ -12,8 +12,8 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
 - name: backend
-  newName: us-central1-docker.pkg.dev/k8s-staging-images/kueue/kueueviz-backend
-  newTag: main
+  newName: quay.io/kryanbeane/kueueviz-backend
+  newTag: v0.14.0-devel-232-gf7a52aaf5-dirty
 - name: frontend
-  newName: us-central1-docker.pkg.dev/k8s-staging-images/kueue/kueueviz-frontend
-  newTag: main
+  newName: quay.io/kryanbeane/kueueviz-frontend
+  newTag: v0.14.0-devel-232-gf7a52aaf5-dirty
